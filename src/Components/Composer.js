@@ -13,7 +13,7 @@ class Composer extends Component {
     onKeyUp = (evt) => {
         this.setState({
             text: evt.target.value
-          // text:"test"
+            // text:"test"
         })
     }
 
@@ -21,7 +21,7 @@ class Composer extends Component {
 
     render() {
         const { onSubmit } = this.props;
-                const { text } = this.state;
+        const { text } = this.state;
 
         return (
             <div className="composer">
