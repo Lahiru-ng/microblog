@@ -27,8 +27,6 @@ storiesOf("shared - Editor", module)
 storiesOf("shared - TextBox", module).add("default", () => (
   <TextBox name="name" text="" label="TextLabel" onChange={action("onChange()")} />
 ));
-
-
 // import { Button, Welcome } from '@storybook/react/demo';
 
 // storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
